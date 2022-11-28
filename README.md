@@ -24,7 +24,7 @@ Neural network is a binary classifier which outputs probability of a particular 
 ## Postprocessing
 In order to provide an insight into the neural network’s choice of discriminative features used for classifications of images, Gradient-weighted Class Activation Mapping (Grad-CAM) was used to generate activation maps of images from the dataset. The heatmaps for selected images were generated using tf-explain library (see manuscript for references and details).
 
-## CEK (positive), Vero (positive): 
+## Examples of non-infected and virus-infected images used for assay validation
 Examples of negative (non-infected) and positive (virus infected) wells from the validation assays. 96-well cell culture plates were seeded with either Vero, CEF or CEK cells and infected with 10-fold serial dilutions of NDV, IBDV or IBV viruses respectively. Wells were examined 5-7 days later under 100-200 fold magnification for CPE and classified as negative (no CPE visible) or positive (visible CPE). Cell well images were subjected to Grad-CAM analysis to highlight regions most relevant for trained neural network’s prediction outcome.
 
 ![guthubimg](https://user-images.githubusercontent.com/98668610/204270497-e8e70382-1538-4b05-89ef-262373220684.png)
