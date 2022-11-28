@@ -1,4 +1,4 @@
-# NN_for_cell_culture
+# Objectivization of virus titration method in GMP-regulated environment using artificial intelligence-based classification system
 Code from the paper "Objectivization of virus titration method in GMP-regulated environment using artificial intelligence-based classification system", doi: https://doi.org/10.1016/j.ejpb.2022.11.020.
 
 Full text here:
